@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Pamilerin Oladosu</title>
+  <meta name="description" content="Pamilerin Oladosu - Portfolio">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Pamilerin<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html" class="active">Contact</a></li></ul>
+    </nav>
+  </header>
+  <main>
+    <section class="page-head"><h1>Contact Me</h1><p>Have a question or opportunity? Send me a message.</p></section>
+    <section class="contact-wrap">
+      <aside class="contact-info">
+        <h2>Get in touch</h2>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:P.oladosu6138@miva.edu.ng">P.oladosu6138@miva.edu.ng</a></li>
+          <li><strong>Phone:</strong> 07052185301</li>
+          <li><strong>Location:</strong> Lagos, Nigeria</li>
+        </ul>
+      </aside>
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text"><small class="error"></small></div>
+        <div class="field"><label for="email">Email Address</label><input id="email" name="email" type="email"><small class="error"></small></div>
+        <div class="field"><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel"><small class="error"></small></div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5"></textarea><small class="error"></small></div>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formSuccess" class="success" role="status"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Pamilerin Oladosu &middot; COS 106 Term Project &middot; Miva Open University</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

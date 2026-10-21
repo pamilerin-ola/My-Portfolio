@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Pamilerin Oladosu</title>
+  <meta name="description" content="Pamilerin Oladosu - Portfolio">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Pamilerin<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html" class="active">Projects</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </nav>
+  </header>
+  <main>
+    <section class="page-head"><h1>My Projects</h1><p>A selection of things I've built while learning.</p></section>
+    <section class="projects-grid">
+      <article class="project-card">
+        <img src="images/portfolio.jpg" alt="Screenshot of Weather Dashboard" loading="lazy">
+        <div class="project-body"><h2>My Portfolio</h2><p>A personal portfolio website designed to showcase my background, skills, projects, achievements, and professional experience. It provides a central place to learn more about me, explore my work, and connect with me professionally.</p><p class="stack">HTML · CSS · JavaScript</p>
+        <div class="btn-row"><a href="https://github.com/" target="_blank" rel="noopener" class="btn">View Code</a><a href="#" class="btn btn-outline demo-link">Live Demo</a></div></div>
+      </article>
+      <article class="project-card">
+        <img src="https://picsum.photos/id/180/600/380" alt="personal expense tracker" loading="lazy">
+        <div class="project-body"><h2>Personal Expense Tracker</h2><p>This project involves recording and analysing personal expenses to understand spending habits. The goal is to organise expenses into categories and identify areas where money can be saved.</p><p class="stack">HTML · CSS3 · JavaScript</p>
+        <!-- <div class="btn-row"><a href="https://github.com/" target="_blank" rel="noopener" class="btn">View Code</a><a href="#" class="btn btn-outline demo-link">Live Demo</a></div></div> -->
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Pamilerin Oladosu &middot; COS 106 Term Project &middot; Miva Open University</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
