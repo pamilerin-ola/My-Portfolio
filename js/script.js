@@ -9,12 +9,12 @@ navToggle.addEventListener("click", function () {
 });
 
 // Simulated demo links
-document.querySelectorAll(".demo-link").forEach(function (link) {
-  link.addEventListener("click", function (e) {
-    e.preventDefault();
-    alert("Live demo coming soon!");
-  });
-});
+// document.querySelectorAll(".demo-link").forEach(function (link) {
+//   link.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     alert("Live demo coming soon!");
+//   });
+// });
 
 // ===== Academic Planner =====
 const taskForm = document.getElementById("taskForm");
